@@ -51,6 +51,24 @@ html, body {
     color: #E00C0A;
 }
 
+.message {
+    display: none;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.message.warning {
+    color: #E8D82A;
+}
+
+.message.error {
+    color: #E00C0A;
+}
+
+.message.active {
+    display: block;
+}
+
 input {
     width: 100%;
     display: block;
